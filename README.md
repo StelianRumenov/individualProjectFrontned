@@ -6,7 +6,7 @@ Welcome to Locals! This project is a frontend application built with React, aimi
 
 ## Getting Started
 
-To get started with the React-FarmConnect project, follow the instructions below:
+To get started with the Locals project, follow the instructions below:
 
 ## Prerequisites
 Make sure you have the following installed on your system:
