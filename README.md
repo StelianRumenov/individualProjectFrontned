@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# Locals - frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Vite](https://vitejs.dev/).
 
-## Available Scripts
+Welcome to Locals! This project is a frontend application built with React, aiming to connect individual consumers with small-scale farmers. It provides a platform for consumers to directly interact with farmers, discover locally grown produce, and support sustainable farming practices.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To get started with the React-FarmConnect project, follow the instructions below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisites
+Make sure you have the following installed on your system:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Node.js (version 12 or above)
+NPM (Node Package Manager)
+## Installation
+1. Clone the repository to your local machine:
 
-### `npm test`
+#### `git clone https://github.com/your-username/react-farmconnect.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+#### `cd individualProjectFrontned`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
 
-### `npm run eject`
+#### `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Open your browser and visit http://localhost:3000 to view the application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Locals offers the following key features:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ - User registration and authentication: Users can create accounts and log in to the platform.
+ - Farmer profiles: Farmers can create profiles and provide information about their farms, products, and farming practices.
+ - Product listings: Farmers can list their available products with details such as descriptions, pricing, and quantities.
+ - Product search and filtering: Consumers can search for specific products or filter them based on categories, farm locations, or farming practices.
+ - Order placement: Consumers can place orders for selected products and communicate with farmers for further details.
+ - Messaging system: A messaging system facilitates communication between consumers and farmers, enabling them to discuss product details, delivery options, and more.
+ - Rating and reviews: Users can rate and leave reviews for farmers and their products, helping others make informed decisions.
+ - Dashboard: Users have access to a personalized dashboard displaying their order history, favorites, messages, and account settings.
 
-## Learn More
+## Technologies Used
+The Locals project utilizes the following technologies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - React: JavaScript library for building user interfaces.
+ - React Router: Library for handling client-side routing in React applications.
+ - Axios: HTTP client for making API requests to the backend server.
+ - Easy-Peasy: State management library for managing application state, built on Redux.
+ - Tailwind CSS: For stying elements and layouts.
+ - Formik: Form library for building and managing forms in React.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+We welcome contributions to the Locals project! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request detailing your changes and their purpose.
+   
+Please ensure that your code adheres to the project's coding conventions and practices. Include tests when necessary and make sure all existing tests pass successfully.
+
+## License
+The Locals project is licensed under the MIT License. Feel free to modify and use the code for personal or commercial projects.
+
+## Contact
+If you have any questions or suggestions regarding the Locals project, feel free to contact us at your-s.rumenov@student.fontys.nl.
+
+We appreciate your interest and hope that Locals proves to be a valuable tool in connecting consumers with small-scale farmers!
